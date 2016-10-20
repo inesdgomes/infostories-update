@@ -3,6 +3,19 @@
 }
 
 .title {
-	border-bottom: 1px solid black;
+	border-bottom: 1px solid $primary-color;
 	color: $primary-color;
+}
+
+.paragraph {
+	color: $white;
+}
+
+.ilo-logo {
+	width: 50px;
+}
+
+.footer {
+	color: $dark-gray;
+	font-size: $small-font-size;
 }

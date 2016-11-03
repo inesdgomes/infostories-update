@@ -17,7 +17,7 @@
 // ---------
 
 $primary-color: #F4E678;
-$secondary-color: #7DA3DC;
+$secondary-color: #24447E;
 $success-color: #3adb76;
 $warning-color: #ffae00;
 $alert-color: #ec5840;
@@ -31,7 +31,7 @@ $global-width: 580px;
 $global-width-small: 95%;
 $global-gutter: 16px;
 $body-background: $light-gray;
-$container-background: #24447E;
+$container-background: #7DA3DC;
 $global-padding: 30px;
 $global-margin: 20px;
 $global-radius: 3px;
@@ -106,11 +106,11 @@ $button-font-size: (
   default: 16px,
   large: 20px,
 );
-$button-color: $white;
+$button-color: $secondary-color;
 $button-color-alt: $medium-gray;
 $button-font-weight: bold;
 $button-margin: 0 0 $global-margin 0;
-$button-background: $secondary-color;
+$button-background: $primary-color;
 $button-border: 2px solid $button-background;
 $button-radius: $global-radius;
 $button-rounded: $global-rounded;

@@ -2,33 +2,46 @@
 	padding: 0 !important;
 }
 
-
 .hero {
 	@extend .no-padding;
 }
 
+.main {
+	@extend .no-padding;
+	}
+
+.buffer {
+		background-color: $secondary-color;
+		padding: 16px !important;
+	}
+
 .infostories-logo {
-	width: 50px;
-}
+	width: 10%;
+	}
 
 .title {
 	border-bottom: 1px solid $primary-color;
 	color: $primary-color;
+	padding-bottom: 10px;
 }
 
 .paragraph {
 	color: $white;
 }
 
+.paragraph-footer {
+color: #cacaca;
+font-size: $small-font-size;
+}
+
 .ilo-logo {
-	width: 50px;
+	width: 30%;
 }
 
 .footer {
-	color: $dark-gray;
-	font-size: $small-font-size;
+		@extend .no-padding;
 }
 
-.buffer {
-	background-color: #7DA3DC;
+.bottom-margin {
+	background-color: $secondary-color;
 }

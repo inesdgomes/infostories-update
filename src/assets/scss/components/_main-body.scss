@@ -7,12 +7,10 @@
 }
 
 .main {
-	@extend .no-padding;
 	}
 
 .buffer {
 		background-color: $secondary-color;
-		padding: 16px !important;
 	}
 
 .infostories-logo {
@@ -35,7 +33,7 @@ font-size: $small-font-size;
 }
 
 .ilo-logo {
-	width: 30%;
+	width: 40%;
 }
 
 .footer {

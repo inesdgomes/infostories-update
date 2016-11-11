@@ -16,13 +16,6 @@
 		margin: 0 !important;
 		padding: 0 !important;
 	}
-
-	th {
-		height: 281px;
-		margin: 0 !important;
-		padding: 0 !important;
-	}
-
 }
 
 .email-body {
@@ -48,6 +41,11 @@
 	border-bottom: 1px solid $primary-color;
 	color: $primary-color;
 	padding-bottom: 20px;
+
+	td {
+		word-break : normal !important;
+		border-collapse: collapse !important;
+	}
 }
 
 .paragraph {

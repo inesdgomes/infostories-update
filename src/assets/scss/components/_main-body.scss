@@ -4,13 +4,33 @@
 
 .hero {
 	@extend .no-padding;
+	margin: 0 !important;
+
+	img {
+		width: 100%;
+		margin: 0 !important;
+		padding: 0 !important;
+	}
+
+	a {
+		margin: 0 !important;
+		padding: 0 !important;
+	}
 }
 
-.main {
-	}
+.email-body {
+	margin: 0 !important;
+	padding: 0 !important;
+}
 
 .buffer {
 		background-color: $secondary-color;
+		margin-bottom: 0 !important;
+		margin-top: 0 !important;
+		max-width: 16px !important;
+		padding-bottom: 0 !important;
+		padding-top: 0 !important;
+		width: 16px !important;
 	}
 
 .infostories-logo {
@@ -20,7 +40,12 @@
 .title {
 	border-bottom: 1px solid $primary-color;
 	color: $primary-color;
-	padding-bottom: 10px;
+	padding-bottom: 20px;
+
+	td {
+		word-break : normal !important;
+		border-collapse: collapse !important;
+	}
 }
 
 .paragraph {
@@ -28,8 +53,13 @@
 }
 
 .paragraph-footer {
-color: #cacaca;
-font-size: $small-font-size;
+	color: #cacaca;
+	font-size: $small-font-size;
+
+	a {
+		color: #cacaca;
+	}
+
 }
 
 .ilo-logo {
@@ -42,4 +72,5 @@ font-size: $small-font-size;
 
 .bottom-margin {
 	background-color: $secondary-color;
+	height: 30px;
 }
